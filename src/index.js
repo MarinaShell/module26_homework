@@ -22,6 +22,9 @@ export function definePrime(num) {
 }
 
 export function revertString(str) {
+    if (typeof(str) !== 'string')
+        return "not string";
+
     let revertedStr = "";
   
     for (let i = str.length - 1; i >= 0; i--) {

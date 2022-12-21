@@ -36,8 +36,9 @@ xdescribe("tests for definePrime function",
   describe("tests for revertString function", () => {
     it("should reverse string", 
     () =>{ 
-        expect(revertString("abc")).toBe("cba")
+        expect(revertString("abc")).toBe("cba");
+        expect(revertString(123)).toBe("not string");
     }
     );
     }
-  );g
+  );
