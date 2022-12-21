@@ -1,0 +1,25 @@
+{
+    "name": "learn-js",
+    "version": "1.0.0",
+    "description": "js examples for fast learning",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MarinaShell/module26_homework.git"
+    },
+    "author": "marinashell",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MarinaShell/module26_homework/issues"
+    },
+    "homepage": "https://github.com/MarinaShell/module26_homework#readme",
+    "devDependencies": {
+        "@babel/core": "^7.20.5",
+        "@babel/preset-env": "^7.20.2",
+        "babel-jest": "^29.3.1",
+        "jest": "^29.3.1"
+    }
+}
